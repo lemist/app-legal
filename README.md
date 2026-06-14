@@ -8,7 +8,16 @@ After GitHub Pages is enabled:
 
 | App | Privacy Policy |
 |-----|----------------|
-| NoteWhen | https://lemist.github.io/app-legal/notewhen/privacy.html |
+| NoteWhen (English) | https://lemist.github.io/app-legal/notewhen/privacy.html |
+| NoteWhen (localized) | `privacy.<locale>.html` — e.g. `privacy.de.html`, `privacy.zh-Hans.html`, `privacy.ja.html` |
+
+Supported locales: `en`, `de`, `es`, `fr`, `hi`, `it`, `ja`, `ko`, `pt-BR`, `ru`, `ar`, `zh-Hans`, `zh-Hant`.
+
+Regenerate pages after editing translations:
+
+```bash
+python3 notewhen/build-privacy-pages.py
+```
 
 Index: https://lemist.github.io/app-legal/
 

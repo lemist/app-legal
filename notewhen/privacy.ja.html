@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NoteWhen プライバシー ポリシー</title>
+  <meta name="description" content="iOS 用の個人健康イベント追跡アプリである NoteWhen のプライバシー ポリシー。">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #ffffff;
+      --text: #1d1d1f;
+      --muted: #6e6e73;
+      --border: #d2d2d7;
+      --link: #0066cc;
+      --card: #f5f5f7;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #000000;
+        --text: #f5f5f7;
+        --muted: #a1a1a6;
+        --border: #424245;
+        --link: #2997ff;
+        --card: #1c1c1e;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+    h1 {
+      font-size: 2rem;
+      line-height: 1.15;
+      margin: 0 0 8px;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 28px;
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin: 32px 0 12px;
+    }
+    p, li { font-size: 1rem; }
+    ul { padding-left: 1.25rem; }
+    li { margin: 8px 0; }
+    a { color: var(--link); }
+    .summary {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin: 24px 0;
+    }
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>NoteWhen プライバシー ポリシー</h1>
+    <p class="meta">発効日：2026年6月9日</p>
+
+    <div class="summary">
+      <p><strong>まとめ：</strong> NoteWhen は個人の健康イベント トラッカーです。追跡データはデバイスとプライベート iCloud アカウントに保存されます。あなたの許可があれば、アプリは Apple Health で選択された運動、睡眠、水分のデータを読み書きすることができます。 AI 月次レポートを使用する場合、データの集約された概要がレポート生成サービスに送信され、レポートが作成されます。当社はお客様のデータを販売したり、第三者の分析を使用したりすることはありません。</p>
+    </div>
+
+    <p>
+      このプライバシー ポリシーでは、NoteWhen iOS アプリおよび関連ウィジェットを使用する際に、NoteWhen (「当社」、「当社」、または「アプリ」) が情報をどのように処理するかについて説明します。アプリを使用すると、このポリシーに同意したことになります。
+    </p>
+
+    <h2>1. 私たちは何者か</h2>
+    <p>
+      注: は iOS アプリです。プライバシーに関する質問については、<a href="https://github.com/lemist/app-legal/issues">GitHub Issues</a> からお問い合わせください。
+    </p>
+
+    <h2>2. お客様が提供し当社が保管する情報</h2>
+    <p>
+      アプリの使用方法に応じて、次のカテゴリのデータが処理されます。
+    </p>
+    <ul>
+      <li><strong>健康とウェルネスのイベント</strong> 追跡することを選択した症状、投薬、血圧、排便、月経周期、気分、不安アンケート (PHQ-9 および GAD-7)、睡眠、運動、水分摂取量、食事、各出来事に添付したメモなど。</li>
+      <li><strong>イベント構成</strong> (イベント名、アイコン、カテゴリ、リマインダー スケジュール、服薬リマインダー時刻など)。</li>
+      <li><strong>AI 月次レポート</strong> (その機能を使用している場合、生成されたレポート テキストと提案を含む)。</li>
+      <li><strong>アプリの設定</strong> (言語、外観、リマインダー設定など)。</li>
+    </ul>
+    <p>
+      このデータはデバイス上にローカルに保存され、iCloud にサインインすると、プライベート iCloud アカウントを通じてデバイス間で同期されます。当社は、追跡データ用に別個のアカウント システムやバックエンド データベースを運用しません。
+    </p>
+
+    <h2>3. Apple Health (HealthKit)</h2>
+    <p>
+      Health 連携を有効にすると、NoteWhen は Apple Health からワークアウト、睡眠、水分摂取のデータを <strong>読み取り</strong>、イベント履歴に取り込む場合があります。許可いただければ、NoteWhen で記録した運動、睡眠、水分摂取の項目を Apple Health に <strong>書き込み</strong>、アプリ間で記録を同期できます。
+    </p>
+    <ul>
+      <li><strong>読み取りアクセス:</strong> は、ワークアウト、睡眠セッション、および水のサンプルを Apple Health から NoteWhen にインポートします。</li>
+      <li><strong>書き込みアクセス:</strong> は、NoteWhen に記録したワークアウト、睡眠セッション、水分摂取量を Apple Health に保存します。 Apple Health からインポートされたエントリは書き戻されません。</li>
+      <li>HealthKit データはデバイス上で処理されます。インポートまたはログに記録したデータは、前述のようにアプリのデータベースと iCloud に保存されます。</li>
+      <li>当社は HealthKit データを広告に使用したり、HealthKit データを販売したりすることはありません。</li>
+      <li>ヘルスケア アプリまたは iOS 設定でいつでも各データ タイプの読み取りおよび書き込みアクセスを許可、制限、または取り消すことができます。</li>
+    </ul>
+
+    <h2>4. AI月次レポート</h2>
+    <p>
+      月次レポートを生成すると、アプリは選択した月の追跡イベントからテキスト概要を作成し、それを HTTPS 経由でレポート生成サービスに送信します。これらのサービスは、サードパーティの AI テクノロジーを使用してレポートを作成します。リクエストには、選択したアプリ言語と生成手順が含まれます。 Apple ID や iCloud 認証情報は含まれません。
+    </p>
+    <ul>
+      <li>レポート生成はリクエストを一時的に処理し、レポートが返された後に追跡概要を保持しないように設計されています。</li>
+      <li>生成されたレポートはアプリデータに保存され、iCloud アカウント経由で同期されます。</li>
+      <li>AI の出力は個人的な参考のみを目的としており、医学的なアドバイスではありません。</li>
+    </ul>
+    <p>
+      月次レポートを生成しない、またはその機能を購読または使用しないことにより、レポート生成のためのデータの送信を回避できます。
+    </p>
+
+    <h2>5. ウィジェットデータ</h2>
+    <p>
+      NoteWhen ウィジェットは、アプリとウィジェット間で共有されるイベント メタデータ (イベント名、アイコン、並べ替え順序など) の限定されたコピーを使用して、クイック レコード ショートカットを表示します。ウィジェットの発生履歴は保存されません。
+    </p>
+
+    <h2>6. 通知</h2>
+    <p>
+      NoteWhen は、イベント ログ リマインダー、投薬リマインダー、およびオプションの月次レポートの利用可能性について、デバイス上で <strong>ローカル</strong> 通知をスケジュールします。通知内容には、設定したイベント名や薬剤名が含まれる場合があります。当社は、お客様の健康データを含むプッシュ通知を当社独自のサーバーから送信しません。
+    </p>
+
+    <h2>7. 購読と支払い</h2>
+    <p>
+      AI 月次レポートのオプションのサブスクリプションは、Apple ID を通じてすべて Apple によって処理されます。 Apple の StoreKit からサブスクリプション ステータスを受信して​​、機能のロックを解除します。当社はあなたの支払いカードの詳細を受け取ったり保管したりしません。
+    </p>
+
+    <h2>8. 収集しないもの</h2>
+    <ul>
+      <li>当社はあなたの個人データや健康データを販売しません。</li>
+      <li>アプリではサードパーティの広告または分析 SDK を使用しません。</li>
+      <li>別の NoteWhen アカウントを作成する必要はありません。</li>
+    </ul>
+
+    <h2>9. データの保持と削除</h2>
+    <ul>
+      <li>追跡データは、アプリ内で削除するか、アプリを削除するか、iCloud からデータを削除するまで残ります。</li>
+      <li>アプリに記載されているように、削除したイベントは完全に削除されるまで 30 日間非アクティブな状態に保たれます。</li>
+      <li>デバイスからアプリを削除すると、そのデバイス上のローカル データが削除されます。 iOS 設定で iCloud ストレージを管理するまで、iCloud コピーは残る場合があります。</li>
+    </ul>
+
+    <h2>10.子供たち</h2>
+    <p>
+      注:この作品は 13 歳 (またはお住まいの国で求められる最低年齢) 未満の子供を対象としていません。当社は故意に子供から個人情報を収集しません。
+    </p>
+
+    <h2>11. 海外ユーザー</h2>
+    <p>
+      iCloud データは、Apple のプライバシー規約および Apple ID に関連付けられた地域に基づいて処理されます。 AI レポートのリクエストは、レポート生成サービスによって処理される際に、国外のサーバーにルーティングされる場合があります。
+    </p>
+
+    <h2>12. あなたの選択</h2>
+    <ul>
+      <li>どのイベントを追跡し、どのような詳細を記録するかを選択します。</li>
+      <li>iCloud からサインアウトするか、iOS 設定で NoteWhen の iCloud を無効にして、iCloud 同期を無効にします。</li>
+      <li>Health アプリまたは iOS 設定で HealthKit の読み取りおよび書き込みアクセスを取り消すか制限します。</li>
+      <li>アプリの設定でリマインダーをオフにします。</li>
+      <li>設定 &gt; Apple ID &gt; サブスクリプションでサブスクリプションを管理またはキャンセルします。</li>
+    </ul>
+
+    <h2>13. 医療上の免責事項</h2>
+    <p>
+      NoteWhen は個人の追跡のみを目的としています。医療機器ではなく、診断や治療を行うものではありません。医学的な決定については、必ず資格のある医療専門家に相談してください。
+    </p>
+
+    <h2>14. 本ポリシーの変更</h2>
+    <p>
+      当社は、このプライバシー ポリシーを随時更新することがあります。このページの上部にある発効日は、変更されると変更されます。更新後にアプリを継続して使用することは、改訂されたポリシーに同意したことを意味します。
+    </p>
+
+    <h2>15. 連絡先</h2>
+    <p>
+      このプライバシー ポリシーに関する質問: <a href="https://github.com/lemist/app-legal/issues">https://github.com/lemist/app-legal/issues</a>
+    </p>
+
+    <footer>
+      <p>&copy; 2026 NoteWhen。 <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple 標準 EULA</a> はアプリの使用に適用されます。</p>
+    </footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NoteWhen — Política de privacidad</title>
+  <meta name="description" content="Política de privacidad para NoteWhen, una aplicación de seguimiento de eventos de salud personal para iOS.">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #ffffff;
+      --text: #1d1d1f;
+      --muted: #6e6e73;
+      --border: #d2d2d7;
+      --link: #0066cc;
+      --card: #f5f5f7;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #000000;
+        --text: #f5f5f7;
+        --muted: #a1a1a6;
+        --border: #424245;
+        --link: #2997ff;
+        --card: #1c1c1e;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      color: var(--text);
+      background: var(--bg);
+    }
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 32px 20px 64px;
+    }
+    h1 {
+      font-size: 2rem;
+      line-height: 1.15;
+      margin: 0 0 8px;
+    }
+    .meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 28px;
+    }
+    h2 {
+      font-size: 1.25rem;
+      margin: 32px 0 12px;
+    }
+    p, li { font-size: 1rem; }
+    ul { padding-left: 1.25rem; }
+    li { margin: 8px 0; }
+    a { color: var(--link); }
+    .summary {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 18px;
+      margin: 24px 0;
+    }
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>NoteWhen — Política de privacidad</h1>
+    <p class="meta">Fecha de vigencia: 9 de junio de 2026</p>
+
+    <div class="summary">
+      <p><strong>Resumen:</strong> NoteWhen es un rastreador de eventos de salud personal. Sus datos de seguimiento se almacenan en sus dispositivos y en su cuenta privada de iCloud. Con su permiso, la aplicación puede leer y escribir datos seleccionados de ejercicio, sueño y agua con Apple Health. Si utiliza informes mensuales de IA, se envía un resumen agregado de sus datos a nuestros servicios de generación de informes para producir el informe. No vendemos sus datos ni utilizamos análisis de terceros.</p>
+    </div>
+
+    <p>
+      Esta Política de privacidad describe cómo NoteWhen ("nosotros", "nos" o "la aplicación") maneja la información cuando usted utiliza la aplicación NoteWhen para iOS y el widget relacionado. Al utilizar la aplicación, acepta esta política.
+    </p>
+
+    <h2>1. Quiénes somos</h2>
+    <p>
+      NoteWhen es una aplicación de iOS. Si tiene preguntas sobre privacidad, contáctenos a través de <a href="https://github.com/lemist/app-legal/issues">GitHub Issues</a>.
+    </p>
+
+    <h2>2. Información que usted proporciona y nosotros almacenamos</h2>
+    <p>
+      Dependiendo de cómo utilice la aplicación, procesamos las siguientes categorías de datos:
+    </p>
+    <ul>
+      <li><strong>Eventos de salud y bienestar</strong> que elija rastrear, como síntomas, medicamentos, presión arterial, deposiciones, períodos menstruales, estado de ánimo, cuestionarios de ansiedad (PHQ-9 y GAD-7), sueño, ejercicio, ingesta de agua, comidas y notas que adjunte a cada evento.</li>
+      <li><strong>Configuración de eventos</strong>, incluidos nombres de eventos, íconos, categorías, horarios de recordatorios y horarios de recordatorios de medicamentos.</li>
+      <li><strong>Informes mensuales AI</strong>, incluido el texto del informe generado y sugerencias, si utiliza esa función.</li>
+      <li><strong>Preferencias de la aplicación</strong>, como configuración de idioma, apariencia y recordatorio.</li>
+    </ul>
+    <p>
+      Estos datos se almacenan localmente en su dispositivo y, cuando inicia sesión en iCloud, se sincronizan a través de su cuenta privada de iCloud en todos sus dispositivos. No operamos un sistema de cuenta separado ni una base de datos backend para sus datos de seguimiento.
+    </p>
+
+    <h2>3. Salud de Apple (HealthKit)</h2>
+    <p>
+      Si habilita la integración de Salud, NoteWhen puede <strong>leer</strong> datos de entrenamiento, sueño y consumo de agua de Apple Health para importarlos a su historial de eventos. Con su permiso, la aplicación también puede <strong>escribir</strong> entradas de ejercicio, sueño y agua que inicie en NoteWhen en Apple Health para que sus registros permanezcan sincronizados en todas las aplicaciones.
+    </p>
+    <ul>
+      <li><strong>Acceso de lectura:</strong> importa entrenamientos, sesiones de sueño y muestras de agua de Apple Health a NoteWhen.</li>
+      <li><strong>Acceso de escritura:</strong> guarda los entrenamientos, las sesiones de sueño y la ingesta de agua que registra en NoteWhen en Apple Health. Las entradas importadas desde Apple Health no se reescriben.</li>
+      <li>Los datos de HealthKit se procesan en su dispositivo. Los datos que importa o registra se almacenan en la base de datos de su aplicación y en iCloud como se describe anteriormente.</li>
+      <li>No utilizamos datos de HealthKit para publicidad y no vendemos datos de HealthKit.</li>
+      <li>Puede otorgar, limitar o revocar el acceso de lectura y escritura para cada tipo de datos en cualquier momento en la aplicación Salud o en la Configuración de iOS.</li>
+    </ul>
+
+    <h2>4. Informes mensuales de IA</h2>
+    <p>
+      Cuando genera un informe mensual, la aplicación crea un resumen de texto de los eventos rastreados para el mes seleccionado y lo envía a través de HTTPS a nuestros servicios de generación de informes. Esos servicios utilizan tecnología de inteligencia artificial de terceros para producir el informe. La solicitud incluye el idioma de la aplicación seleccionada y las instrucciones de generación; no incluye su ID de Apple ni sus credenciales de iCloud.
+    </p>
+    <ul>
+      <li>La generación de informes está diseñada para procesar solicitudes de forma transitoria y no conservar el resumen de seguimiento después de que se devuelve el informe.</li>
+      <li>Los informes generados se guardan en los datos de su aplicación y se sincronizan a través de su cuenta de iCloud.</li>
+      <li>La salida de IA es solo para referencia personal y no constituye un consejo médico.</li>
+    </ul>
+    <p>
+      Puede evitar el envío de datos para la generación de informes si no genera informes mensuales o no se suscribe o no utiliza esa función.
+    </p>
+
+    <h2>5. Datos de los widgets</h2>
+    <p>
+      El widget NoteWhen muestra atajos de grabación rápida utilizando una copia limitada de los metadatos del evento (como el nombre del evento, el icono y el orden de clasificación) compartidos entre la aplicación y el widget. El historial de ocurrencias no se almacena para el widget.
+    </p>
+
+    <h2>6. Notificaciones</h2>
+    <p>
+      NoteWhen programa notificaciones <strong>locales</strong> en su dispositivo para recordatorios de registro de eventos, recordatorios de medicamentos y disponibilidad de informes mensuales opcionales. El contenido de la notificación puede incluir nombres de eventos o medicamentos que haya configurado. No enviamos notificaciones push desde nuestros propios servidores con tus datos de salud.
+    </p>
+
+    <h2>7. Suscripciones y pagos</h2>
+    <p>
+      Apple procesa completamente las suscripciones opcionales para informes mensuales de IA a través de su ID de Apple. Recibimos el estado de suscripción de StoreKit de Apple para desbloquear funciones. No recibimos ni almacenamos los datos de su tarjeta de pago.
+    </p>
+
+    <h2>8. Lo que no recopilamos</h2>
+    <ul>
+      <li>No vendemos tus datos personales ni de salud.</li>
+      <li>No utilizamos SDK de análisis o publicidad de terceros en la aplicación.</li>
+      <li>No le pedimos que cree una cuenta NoteWhen separada.</li>
+    </ul>
+
+    <h2>9. Conservación y eliminación de datos</h2>
+    <ul>
+      <li>Sus datos de seguimiento permanecen hasta que los elimine en la aplicación, elimine la aplicación o elimine datos de iCloud.</li>
+      <li>Los eventos que elimina se mantienen en estado inactivo durante 30 días antes de la eliminación permanente, como se describe en la aplicación.</li>
+      <li>Al eliminar la aplicación de un dispositivo, se eliminan los datos locales de ese dispositivo; Las copias de iCloud pueden permanecer hasta que administres el almacenamiento de iCloud en la configuración de iOS.</li>
+    </ul>
+
+    <h2>10. Niños</h2>
+    <p>
+      NoteWhen no está dirigido a niños menores de 13 años (o la edad mínima requerida en su país). No recopilamos conscientemente información personal de niños.
+    </p>
+
+    <h2>11. Usuarios internacionales</h2>
+    <p>
+      Sus datos de iCloud se manejan según los términos de privacidad de Apple y la región asociada con su ID de Apple. Las solicitudes de informes de IA pueden enviarse a servidores fuera de su país cuando las procesan nuestros servicios de generación de informes.
+    </p>
+
+    <h2>12. Tus elecciones</h2>
+    <ul>
+      <li>Elija qué eventos rastrear y qué detalles registrar.</li>
+      <li>Deshabilite la sincronización de iCloud cerrando sesión en iCloud o deshabilitando iCloud para NoteWhen en la configuración de iOS.</li>
+      <li>Revocar o limitar el acceso de lectura y escritura de HealthKit en la aplicación Salud o en la Configuración de iOS.</li>
+      <li>Desactive los recordatorios en la configuración de la aplicación.</li>
+      <li>Administre o cancele suscripciones en Configuración &gt; ID de Apple &gt; Suscripciones.</li>
+    </ul>
+
+    <h2>13. Descargo de responsabilidad médica</h2>
+    <p>
+      NoteWhen es solo para seguimiento personal. No es un dispositivo médico y no proporciona diagnóstico ni tratamiento. Consulte siempre a un profesional de la salud calificado para tomar decisiones médicas.
+    </p>
+
+    <h2>14. Cambios a esta política</h2>
+    <p>
+      Podemos actualizar esta Política de Privacidad de vez en cuando. La fecha de vigencia que aparece en la parte superior de esta página cambiará cuando lo hagamos. El uso continuo de la aplicación después de una actualización significa que acepta la política revisada.
+    </p>
+
+    <h2>15. Contacto</h2>
+    <p>
+      Preguntas sobre esta Política de Privacidad: <a href="https://github.com/lemist/app-legal/issues">https://github.com/lemist/app-legal/issues</a>
+    </p>
+
+    <footer>
+      <p>&copy; 2026 NoteWhen. <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">El estándar EULA</a> de Apple se aplica al uso de la aplicación.</p>
+    </footer>
+  </main>
+</body>
+</html>
