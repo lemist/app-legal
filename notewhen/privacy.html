@@ -75,10 +75,10 @@
 <body>
   <main>
     <h1>NoteWhen Privacy Policy</h1>
-    <p class="meta">Effective date: June 14, 2026</p>
+    <p class="meta">Effective date: June 9, 2026</p>
 
     <div class="summary">
-      <p><strong>Summary:</strong> NoteWhen is a personal health event tracker. Your tracking data is stored on your devices and in your private iCloud account. With your permission, the app can read and write selected exercise, sleep, and water data with Apple Health. If you use AI monthly reports, an aggregated summary of your data is sent to our servers and third-party AI providers to generate the report. We do not sell your data or use third-party analytics.</p>
+      <p><strong>Summary:</strong> NoteWhen is a personal health event tracker. Your tracking data is stored on your devices and in your private iCloud account. With your permission, the app can read and write selected exercise, sleep, and water data with Apple Health. If you use AI monthly reports, an aggregated summary of your data is sent to our report-generation services to produce the report. We do not sell your data or use third-party analytics.</p>
     </div>
 
     <p>
@@ -87,7 +87,7 @@
 
     <h2>1. Who we are</h2>
     <p>
-      NoteWhen is an iOS app (bundle identifier <code>com.qianshuft.NoteWhen</code>).
+      NoteWhen is an iOS app.
       For privacy questions, contact us via
       <a href="https://github.com/lemist/app-legal/issues">GitHub Issues</a>.
     </p>
@@ -101,7 +101,7 @@
       <li><strong>App preferences</strong>, such as language, appearance, and reminder settings.</li>
     </ul>
     <p>
-      This data is stored locally on your device using Apple’s SwiftData framework and, when you are signed in to iCloud, synced through your private iCloud account and CloudKit container (<code>iCloud.com.qianshuft.NoteWhen</code>) across your devices. We do not operate a separate account system or backend database for your tracking data.
+      This data is stored locally on your device and, when you are signed in to iCloud, synced through your private iCloud account across your devices. We do not operate a separate account system or backend database for your tracking data.
     </p>
 
     <h2>3. Apple Health (HealthKit)</h2>
@@ -118,21 +118,20 @@
 
     <h2>4. AI monthly reports</h2>
     <p>
-      When you generate a monthly report, the app builds a text summary from your tracked events for the selected month and sends it over HTTPS to our report proxy services. Our proxies forward that summary to third-party AI providers (currently DeepSeek and/or Google Gemini) to produce the report. The request includes your selected app language and generation instructions; it does not include your Apple ID or iCloud credentials.
+      When you generate a monthly report, the app builds a text summary from your tracked events for the selected month and sends it over HTTPS to our report-generation services. Those services use third-party AI technology to produce the report. The request includes your selected app language and generation instructions; it does not include your Apple ID or iCloud credentials.
     </p>
     <ul>
-      <li>Proxies are hosted on Cloudflare Workers (global) and Alibaba Function Compute (used as a primary endpoint for users in mainland China).</li>
-      <li>Our proxy code is designed to process requests transiently and not persist your tracking summary on the server after the report is returned.</li>
+      <li>Report generation is designed to process requests transiently and not persist your tracking summary after the report is returned.</li>
       <li>Generated reports are saved in your app data and synced via your iCloud account.</li>
       <li>AI output is for personal reference only and is not medical advice.</li>
     </ul>
     <p>
-      You can avoid sending data to AI providers by not generating monthly reports or by not subscribing to / using that feature.
+      You can avoid sending data for report generation by not generating monthly reports or by not subscribing to / using that feature.
     </p>
 
-    <h2>5. Widget and App Group data</h2>
+    <h2>5. Widget data</h2>
     <p>
-      The NoteWhen widget uses a shared App Group (<code>group.com.qianshuft.NoteWhen</code>) to display quick-record shortcuts. Only limited event metadata (such as event name, icon, and sort order) is copied to the App Group. Occurrence history is not stored in the widget container.
+      The NoteWhen widget displays quick-record shortcuts using a limited copy of event metadata (such as event name, icon, and sort order) shared between the app and the widget. Occurrence history is not stored for the widget.
     </p>
 
     <h2>6. Notifications</h2>
@@ -166,7 +165,7 @@
 
     <h2>11. International users</h2>
     <p>
-      Your iCloud data is handled under Apple’s privacy terms and the region associated with your Apple ID. AI report requests may be routed to servers outside your country (including the United States) when processed by our proxy or AI providers.
+      Your iCloud data is handled under Apple’s privacy terms and the region associated with your Apple ID. AI report requests may be routed to servers outside your country when processed by our report-generation services.
     </p>
 
     <h2>12. Your choices</h2>
